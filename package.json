@@ -14,8 +14,10 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@azure/static-web-apps-cli": "^1.0.1",
 		"@playwright/test": "^1.21.0",
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.1",
 		"eslint": "^8.12.0",
